@@ -1,24 +1,25 @@
 Power BI Portfolio — Business Intelligence & Lean Analytics
-Descripción
+Descripción:
 
 Este repositorio contiene una colección de proyectos desarrollados en Power BI enfocados en análisis de negocio y operaciones Lean.
 
 Cada proyecto simula escenarios reales de empresa e industria con el objetivo de aplicar análisis de datos orientado a la toma de decisiones.
 
 Proyectos incluidos
-Manufacturing Performance — Lean Operations
+
+1. Manufacturing Performance — Lean Operations
 
 Análisis de eficiencia productiva, costes operativos y KPIs industriales.
 
 Carpeta: /Manufacturing-Performance
 
-Machine Downtime — Lean Manufacturing
+2 .Machine Downtime — Lean Manufacturing
 
 Análisis de paradas de máquina, disponibilidad y causas de ineficiencia.
 
 Carpeta: /Machine-Downtime
 
-Business Performance Dashboard
+3. Business Performance Dashboard
 
 Análisis ejecutivo de ingresos, beneficios y márgenes.
 
@@ -43,7 +44,7 @@ Jaume
 
 ![Machine Downtime Dashboard](assets/images/dashboard2.png)
 
-![Business Dashboard](assets/images/dashboard3.png)
+![Business Dashboard](assets/images/Dashboard3.png)
 
 
 
