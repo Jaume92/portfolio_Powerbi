@@ -39,4 +39,12 @@ Autor
 Jaume
 
 
+![Manufacturing Dashboard](assets/images/dashboard1.png)
+
+![Machine Downtime Dashboard](assets/images/dashboard2.png)
+
+![Business Dashboard](assets/images/dashboard3.png)
+
+
+
 mas informacion : www.jaumerrm.dev
