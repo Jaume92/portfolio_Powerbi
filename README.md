@@ -1,39 +1,103 @@
 Power BI Portfolio — Business Intelligence & Lean Analytics
-Descripción:
+Descripción
 
-Este repositorio contiene una colección de proyectos desarrollados en Power BI enfocados en análisis de negocio y operaciones Lean.
+Este repositorio contiene una colección de proyectos desarrollados en Power BI enfocados en análisis de negocio, eficiencia operativa y mejora continua bajo metodología Lean.
 
-Cada proyecto simula escenarios reales de empresa e industria con el objetivo de aplicar análisis de datos orientado a la toma de decisiones.
+Cada dashboard simula escenarios reales de entorno industrial y empresarial, aplicando métricas clave de rendimiento (KPIs), modelado de datos y visualización orientada a soporte a la toma de decisiones operativas y estratégicas.
+
+El objetivo principal es demostrar competencias en:
+
+Análisis de procesos productivos
+
+Optimización del rendimiento operativo
+
+Reporting ejecutivo automatizado
+
+Visualización clara orientada a negocio
+
+Enfoque Lean y mejora continua
 
 Proyectos incluidos
-
 1. Manufacturing Performance — Lean Operations
 
-Análisis de eficiencia productiva, costes operativos y KPIs industriales.
+📁 Carpeta: /Manufacturing-Performance
 
-Carpeta: /Manufacturing-Performance
+Dashboard enfocado en rendimiento productivo industrial:
 
-2 .Machine Downtime — Lean Manufacturing
+Eficiencia operativa
 
-Análisis de paradas de máquina, disponibilidad y causas de ineficiencia.
+Costes de producción
 
-Carpeta: /Machine-Downtime
+KPIs Lean (Productividad, Output, Rendimiento)
+
+Identificación de cuellos de botella
+
+Comparativa por periodos y líneas productivas
+
+2. Machine Downtime — Lean Manufacturing
+
+📁 Carpeta: /Machine-Downtime
+
+Análisis avanzado de paradas de máquina y pérdidas productivas:
+
+Disponibilidad de equipos
+
+Tiempo de inactividad
+
+Causas raíz de paradas
+
+Impacto operativo
+
+Soporte a mantenimiento preventivo y correctivo
 
 3. Business Performance Dashboard
 
-Análisis ejecutivo de ingresos, beneficios y márgenes.
+📁 Carpeta: /Business-Performance
 
-Carpeta: /Business-Performance
+Dashboard ejecutivo orientado a dirección y negocio:
 
-Herramientas utilizadas
+Ingresos totales
+
+Beneficio y márgenes
+
+Ventas por región y categoría
+
+KPIs financieros clave
+
+Seguimiento de rendimiento comercial
+
+Herramientas y Tecnologías
 
 Power BI Desktop
 
-DAX
+DAX (medidas, KPIs y lógica de negocio)
 
 Modelado de datos
 
-Diseño de KPIs
+Transformación de datos (Power Query)
+
+Diseño de dashboards orientados a toma de decisiones
+
+Objetivo del Portfolio
+
+Este portfolio ha sido diseñado con enfoque práctico y profesional, simulando casos reales utilizados en:
+
+Departamentos de Operaciones
+
+Producción Industrial
+
+Control de Gestión
+
+Business Intelligence
+
+Entornos Lean Manufacturing
+
+Dashboards Preview
+Manufacturing Performance
+
+Machine Downtime
+
+Business Performance
 
 Autor
 
