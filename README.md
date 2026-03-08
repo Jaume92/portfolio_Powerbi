@@ -1,115 +1,49 @@
-Power BI Portfolio — Business Intelligence & Lean Analytics
-Descripción
+# Power BI Portfolio — Business Intelligence & Lean Analytics
 
-Este repositorio contiene una colección de proyectos desarrollados en Power BI enfocados en análisis de negocio, eficiencia operativa y mejora continua bajo metodología Lean.
+Colección de dashboards construidos en Power BI orientados a operaciones industriales, rendimiento de negocio y mejora continua bajo metodología Lean.
 
-Cada dashboard simula escenarios reales de entorno industrial y empresarial, aplicando métricas clave de rendimiento (KPIs), modelado de datos y visualización orientada a soporte a la toma de decisiones operativas y estratégicas.
+No son ejercicios de ejemplo — están diseñados para responder las preguntas que un responsable de operaciones, producción o dirección necesita contestar cada semana.
 
-El objetivo principal es demostrar competencias en:
+---
 
-Análisis de procesos productivos
+## Proyectos
 
-Optimización del rendimiento operativo
+### Manufacturing Performance — Lean Operations
+Carpeta: [/Manufacturing-Analysis](./Manufacturing-Analysis)
 
-Reporting ejecutivo automatizado
+Dashboard de eficiencia productiva con foco en desviaciones respecto a objetivo, coste por unidad y análisis Pareto de productos. Pensado para detectar dónde se pierde rendimiento y dónde actuar primero.
 
-Visualización clara orientada a negocio
+### Machine Downtime — Análisis de Paradas
+Carpeta: [/dashboard_machine_downtime](./dashboard_machine_downtime)
 
-Enfoque Lean y mejora continua
+Análisis de paradas de maquinaria industrial con clasificación por tipo, ranking por máquina y análisis de vibración del husillo como indicador preventivo. Orientado a soporte de mantenimiento predictivo.
 
-Proyectos incluidos
-1. Manufacturing Performance — Lean Operations
+### Global Sales Business Intelligence Dashboard
+Carpeta: [/Sales-Dashboard-Using-Power-BI](./Sales-Dashboard-Using-Power-BI)
 
-📁 Carpeta: /Manufacturing-Performance
+Dashboard ejecutivo de ventas con KPIs financieros, análisis de rentabilidad por segmento y producto, y comparación contra objetivo de margen. Diseñado para reporting de dirección y control de gestión.
 
-Dashboard enfocado en rendimiento productivo industrial:
+---
 
-Eficiencia operativa
+## Stack técnico
 
-Costes de producción
+| Herramienta | Uso |
+|---|---|
+| Power BI Desktop | Diseño y publicación de dashboards |
+| DAX | Medidas calculadas, KPIs y lógica de negocio |
+| Power Query (M) | Transformación y limpieza de datos |
+| Modelado de datos | Relaciones, tablas de hechos y dimensiones |
 
-KPIs Lean (Productividad, Output, Rendimiento)
+---
 
-Identificación de cuellos de botella
+## Previews
 
-Comparativa por periodos y líneas productivas
+![Manufacturing Dashboard](./assets/images/dashboard1.png)
 
-2. Machine Downtime — Lean Manufacturing
+![Machine Downtime Dashboard](./assets/images/dashboard2.png)
 
-📁 Carpeta: /Machine-Downtime
+![Business Dashboard](./assets/images/Dashboard3.png)
 
-Análisis avanzado de paradas de máquina y pérdidas productivas:
+---
 
-Disponibilidad de equipos
-
-Tiempo de inactividad
-
-Causas raíz de paradas
-
-Impacto operativo
-
-Soporte a mantenimiento preventivo y correctivo
-
-3. Business Performance Dashboard
-
-📁 Carpeta: /Business-Performance
-
-Dashboard ejecutivo orientado a dirección y negocio:
-
-Ingresos totales
-
-Beneficio y márgenes
-
-Ventas por región y categoría
-
-KPIs financieros clave
-
-Seguimiento de rendimiento comercial
-
-Herramientas y Tecnologías
-
-Power BI Desktop
-
-DAX (medidas, KPIs y lógica de negocio)
-
-Modelado de datos
-
-Transformación de datos (Power Query)
-
-Diseño de dashboards orientados a toma de decisiones
-
-Objetivo del Portfolio
-
-Este portfolio ha sido diseñado con enfoque práctico y profesional, simulando casos reales utilizados en:
-
-Departamentos de Operaciones
-
-Producción Industrial
-
-Control de Gestión
-
-Business Intelligence
-
-Entornos Lean Manufacturing
-
-Dashboards Preview
-Manufacturing Performance
-
-Machine Downtime
-
-Business Performance
-
-Autor
-
-Jaume
-
-
-![Manufacturing Dashboard](assets/images/dashboard1.png)
-
-![Machine Downtime Dashboard](assets/images/dashboard2.png)
-
-![Business Dashboard](assets/images/Dashboard3.png)
-
-
-
-mas informacion : www.jaumerrm.dev
+Más proyectos y contacto: [jaumerrm.dev](https://www.jaumerrm.dev)
