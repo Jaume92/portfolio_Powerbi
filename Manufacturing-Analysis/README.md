@@ -1,20 +1,18 @@
 
-# Dashboard de Inactividad de Maquinaria — Lean Manufacturing
+# Manufacturing Performance Dashboard — Lean Operations
 
-Análisis de paradas industriales para reducir tiempo de inactividad, priorizar mantenimiento y proteger el rendimiento productivo.
+Dashboard de rendimiento de fabricación construido en Power BI para monitorizar eficiencia productiva, detectar ineficiencias de coste y apoyar iniciativas de mejora continua desde una perspectiva Lean.
 
 ---
 
 ## El problema que resuelve
 
-En una planta industrial, cada minuto de parada no planificada tiene un coste directo en producción y capacidad. El reto no es solo registrar las paradas — es entender por qué ocurren, qué máquinas concentran el problema y cuándo actuar antes de que vuelvan a ocurrir.
+En un entorno de fabricación, la diferencia entre producir bien y producir mal se mide en decimales de eficiencia y céntimos por unidad. Este dashboard está diseñado para que un responsable de operaciones pueda detectar rápido dónde están las desviaciones y actuar antes de que se acumulen:
 
-Este dashboard responde a las preguntas que un responsable de producción o mantenimiento necesita contestar cada semana:
-
-- ¿Qué máquinas paran más y cuál es su impacto real en la línea?
-- ¿Las paradas siguen algún patrón temporal que permita anticiparse?
-- ¿Las métricas de vibración del husillo están correlacionadas con las incidencias?
-- ¿Dónde priorizo el mantenimiento preventivo este mes?
+- ¿Estamos por encima o por debajo del objetivo de eficiencia esta semana?
+- ¿El coste por unidad está subiendo? ¿En qué productos?
+- ¿Qué tipos de producto concentran la mayor parte del coste total?
+- ¿Hay variabilidad en producción que indica inestabilidad del proceso?
 
 ---
 
@@ -22,72 +20,51 @@ Este dashboard responde a las preguntas que un responsable de producción o mant
 
 | Indicador | Descripción |
 |---|---|
-| Total de paradas | Número de incidencias registradas en el periodo |
-| Máquinas analizadas | Equipos incluidos en el análisis |
-| Líneas afectadas | Líneas de producción con incidencias registradas |
-| Vibración media del husillo | Indicador técnico de estado de los equipos |
+| Production Efficiency vs Target | Rendimiento productivo actual comparado con el objetivo operativo definido |
+| Coste por unidad | Coste medio de fabricación por unidad producida |
+| Producción total | Volumen total producido en el periodo analizado |
 
 ---
 
-## Visualizaciones incluidas
+## Funcionalidades analíticas
 
-- Evolución temporal de paradas — para identificar picos y patrones estacionales
-- Ranking de paradas por máquina — para priorizar intervenciones de mantenimiento
-- Paradas por línea de producción — para detectar líneas críticas
-- Clasificación por tipo de parada — técnicas vs. no técnicas
-- Análisis de vibración del husillo por máquina — como indicador de mantenimiento predictivo
+- Evolución temporal de producción y costes — para detectar tendencias y variabilidad del proceso
+- Análisis Pareto de costes por tipo de producto — para identificar dónde concentrar las acciones de reducción de coste
+- Distribución del volumen producido por categoría — para entender la composición del output productivo
+- Monitorización de KPIs con objetivos definidos — para detectar desviaciones en tiempo real
+
+---
+
+## Principales conclusiones
+
+- La eficiencia productiva se sitúa por debajo del objetivo definido, lo que indica margen de mejora operativa claro.
+- El coste por unidad aumenta de forma correlacionada con los periodos de baja eficiencia — lo que refuerza el argumento para actuar sobre las causas raíz de las desviaciones.
+- Un número reducido de productos concentra la mayor parte del coste total, lo que es consistente con la regla 80/20 y permite focalizar acciones.
+- La variabilidad en producción y costes sugiere que el proceso no está suficientemente estabilizado — primer paso necesario antes de cualquier iniciativa de mejora continua.
 
 ---
 
 ## Proceso de trabajo
 
-**Preparación de datos**
+**Modelado de datos**
 
-Limpieza y estandarización de campos, validación de formatos de fecha y métricas técnicas, y creación de tabla calendario para análisis temporal correcto.
+Estructuración del modelo con tabla de hechos de producción y dimensiones de producto, categoría y fecha. Tabla calendario para análisis temporal correcto.
 
-**Modelado y métricas**
+**Métricas y lógica operativa**
 
-Construcción de medidas DAX para los KPIs principales, agregaciones personalizadas por máquina, línea y periodo, y optimización del modelo de datos para rendimiento en filtros cruzados.
+Medidas DAX para los KPIs principales con lógica de comparación contra objetivo, cálculo de coste por unidad y agrupaciones para el análisis Pareto.
 
 **Visualización**
 
-Diseño orientado al análisis operativo, con jerarquía de información clara y filtros interactivos por periodo, máquina y línea de producción.
-
----
-
-## Principales hallazgos
-
-- Existen diferencias significativas en el número de paradas entre máquinas, lo que permite concentrar el mantenimiento donde tiene más impacto.
-- Se observa un pico de inactividad durante los meses centrales del periodo analizado, lo que sugiere una posible causa estacional o de carga productiva.
-- La vibración del husillo muestra variaciones relevantes entre equipos y puede usarse como indicador preventivo antes de que se produzca la parada.
-- Las paradas técnicas representan una parte significativa del impacto total, lo que refuerza el argumento para invertir en mantenimiento predictivo.
-
----
-
-## Recomendaciones operativas
-
-- Priorizar mantenimiento preventivo en las máquinas con mayor concentración de incidencias.
-- Investigar las causas detrás del pico de paradas en los meses centrales del periodo.
-- Incorporar métricas de vibración y presión como base para un modelo de mantenimiento predictivo.
-- Implementar seguimiento continuo mediante paneles operativos actualizados en tiempo real.
+Diseño orientado a operaciones: vista de KPIs en cabecera con paneles de análisis de tendencia y distribución para drill-down por categoría y periodo.
 
 ---
 
 ## Archivos del proyecto
 
-- `manufacturing_downtime_jaume.pbix` — Dashboard Power BI
-- `Machine Downtime.csv` — Dataset utilizado
+- `Jaume_Manufacturing_Performance_Lean.pbix` — Dashboard Power BI
+- `README.md` — Documentación del proyecto
 
 ---
 
-## Nota
-
-El dataset corresponde a datos industriales simulados con fines formativos y de demostración analítica.
-
-Este proyecto forma parte de un portfolio enfocado en Business Intelligence, Data Analytics y Digitalización Industrial.
-
 Más proyectos: [jaumerrm.dev](https://www.jaumerrm.dev)
-Autor
-
-Jaume
-Área de enfoque: Business Intelligence y Analítica Operativa
