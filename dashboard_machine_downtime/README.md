@@ -1,91 +1,92 @@
 
-repositorio : git@github.com:Jaume92/portfolio_Powerbi.git
+# Dashboard de Inactividad de Maquinaria — Lean Manufacturing
 
-
-
-# Dashboard de Inactividad Industrial – Enfoque Lean
-
-Este proyecto consiste en el desarrollo de un dashboard de Business Intelligence en Power BI orientado al análisis de paradas de maquinaria industrial y al monitoreo de eficiencia operativa en entornos de fabricación.
-
-El objetivo principal es identificar patrones de inactividad, activos críticos y oportunidades de mejora para reducir paradas no planificadas y optimizar el rendimiento productivo.
+Análisis de paradas industriales para reducir tiempo de inactividad, priorizar mantenimiento y proteger el rendimiento productivo.
 
 ---
 
-##  Objetivo del Proyecto
+## El problema que resuelve
 
-- Analizar el comportamiento temporal de las paradas de producción  
-- Detectar máquinas con mayor impacto operativo  
-- Evaluar el rendimiento por línea de fabricación  
-- Diferenciar paradas técnicas y no técnicas  
-- Relacionar variables técnicas con incidencias operativas  
+En una planta industrial, cada minuto de parada no planificada tiene un coste directo en producción y capacidad. El reto no es solo registrar las paradas — es entender por qué ocurren, qué máquinas concentran el problema y cuándo actuar antes de que vuelvan a ocurrir.
 
----
+Este dashboard responde a las preguntas que un responsable de producción o mantenimiento necesita contestar cada semana:
 
-##  KPIs Principales
-
-- Total de Paradas  
-- Máquinas Analizadas  
-- Líneas Afectadas  
-- Vibración Media del Husillo  
+- ¿Qué máquinas paran más y cuál es su impacto real en la línea?
+- ¿Las paradas siguen algún patrón temporal que permita anticiparse?
+- ¿Las métricas de vibración del husillo están correlacionadas con las incidencias?
+- ¿Dónde priorizo el mantenimiento preventivo este mes?
 
 ---
 
-##  Visualizaciones Incluidas
+## KPIs principales
 
-- Evolución temporal de paradas  
-- Ranking de paradas por máquina  
-- Paradas por línea de producción  
-- Clasificación por tipo de parada  
-- Análisis de vibración del husillo por máquina  
-
----
-
-## 🛠 Proceso de Trabajo
-
-### 1. Preparación de Datos
-- Limpieza y estandarización de campos  
-- Validación de formatos de fecha y métricas técnicas  
-- Creación de tabla calendario para análisis temporal  
-
-### 2. Modelado y Métricas
-- Creación de medidas DAX para KPIs  
-- Agregaciones personalizadas  
-- Optimización del modelo de datos  
-
-### 3. Visualización
-- Diseño orientado a análisis operativo  
-- Enfoque en claridad visual y jerarquía de información  
-- Uso de filtros interactivos por periodo, máquina y línea  
+| Indicador | Descripción |
+|---|---|
+| Total de paradas | Número de incidencias registradas en el periodo |
+| Máquinas analizadas | Equipos incluidos en el análisis |
+| Líneas afectadas | Líneas de producción con incidencias registradas |
+| Vibración media del husillo | Indicador técnico de estado de los equipos |
 
 ---
 
-##  Archivos del Proyecto
+## Visualizaciones incluidas
 
-- `manufacturing_downtime_jaume.pbix` → Dashboard Power BI  
-- `Machine Downtime.csv` → Dataset utilizado  
-
----
-
-##  Principales Hallazgos
-
-- Existen diferencias claras en el número de paradas entre máquinas, lo que permite priorizar acciones de mantenimiento.  
-- Se observa un pico de inactividad durante los meses centrales del periodo analizado.  
-- La vibración del husillo muestra variaciones relevantes entre equipos, lo que puede utilizarse como indicador preventivo.  
-- Las paradas técnicas representan una parte significativa del impacto operativo total.  
+- Evolución temporal de paradas — para identificar picos y patrones estacionales
+- Ranking de paradas por máquina — para priorizar intervenciones de mantenimiento
+- Paradas por línea de producción — para detectar líneas críticas
+- Clasificación por tipo de parada — técnicas vs. no técnicas
+- Análisis de vibración del husillo por máquina — como indicador de mantenimiento predictivo
 
 ---
 
-##  Recomendaciones Operativas
+## Proceso de trabajo
 
-- Priorizar mantenimiento preventivo en las máquinas con mayor número de incidencias.  
-- Analizar en detalle los periodos con mayor concentración de paradas.  
-- Utilizar métricas de vibración y presión como base para estrategias de mantenimiento predictivo.  
-- Implementar seguimiento continuo mediante paneles operativos en tiempo real.
+**Preparación de datos**
+
+Limpieza y estandarización de campos, validación de formatos de fecha y métricas técnicas, y creación de tabla calendario para análisis temporal correcto.
+
+**Modelado y métricas**
+
+Construcción de medidas DAX para los KPIs principales, agregaciones personalizadas por máquina, línea y periodo, y optimización del modelo de datos para rendimiento en filtros cruzados.
+
+**Visualización**
+
+Diseño orientado al análisis operativo, con jerarquía de información clara y filtros interactivos por periodo, máquina y línea de producción.
 
 ---
 
-##  Nota
+## Principales hallazgos
 
+- Existen diferencias significativas en el número de paradas entre máquinas, lo que permite concentrar el mantenimiento donde tiene más impacto.
+- Se observa un pico de inactividad durante los meses centrales del periodo analizado, lo que sugiere una posible causa estacional o de carga productiva.
+- La vibración del husillo muestra variaciones relevantes entre equipos y puede usarse como indicador preventivo antes de que se produzca la parada.
+- Las paradas técnicas representan una parte significativa del impacto total, lo que refuerza el argumento para invertir en mantenimiento predictivo.
+
+---
+
+## Recomendaciones operativas
+
+- Priorizar mantenimiento preventivo en las máquinas con mayor concentración de incidencias.
+- Investigar las causas detrás del pico de paradas en los meses centrales del periodo.
+- Incorporar métricas de vibración y presión como base para un modelo de mantenimiento predictivo.
+- Implementar seguimiento continuo mediante paneles operativos actualizados en tiempo real.
+
+---
+
+## Archivos del proyecto
+
+- `manufacturing_downtime_jaume.pbix` — Dashboard Power BI
+- `Machine Downtime.csv` — Dataset utilizado
+
+---
+
+## Nota
+
+El dataset corresponde a datos industriales simulados con fines formativos y de demostración analítica.
+
+Este proyecto forma parte de un portfolio enfocado en Business Intelligence, Data Analytics y Digitalización Industrial.
+
+Más proyectos: [jaumerrm.dev](https://www.jaumerrm.dev)
 El dataset utilizado corresponde a datos industriales simulados con fines formativos y de demostración analítica.
 
 Este proyecto forma parte de un portfolio personal enfocado a perfiles de Business Intelligence, Data Analytics y Digitalización Industrial.
